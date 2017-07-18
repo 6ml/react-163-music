@@ -1,0 +1,47 @@
+{
+  "bitwise": true,          // 禁用位运算符
+  "curly": true,            // 循环或者条件语句必须使用花括号包围
+  "eqeqeq": true,           // 禁止使用 == 和 != ，强制使用 === 和 !== 
+  "esversion": 6,           // 指定 ECMAScript 版本代码必须遵循，可以使 3 | 5 | 6
+  "forin": true,            // 要求所有 for in 循环过滤对象的 item 
+  // "freeze": true,           // 禁止重写原声对象的原型，如 Array ，Date 等
+  // funcscope: true,          // 禁止从外部访问内部声明的变量
+  // futurehostile: true,      // 允许警告 js 未来版本中定义的标识符
+  // globals: {},              // 指定一个没有正式定义的全局变量的白名单
+  // iterator: true,          // 禁止 iterator 属性有关的警告
+  "latedef": false,         // 禁止定义之前使用变量
+  // maxdepth: 4,              // 设置代码最大嵌套深度
+  // maxerr: 50(默认),         // 设置 JSHint 最大警告数
+  // maxparams: 4,             // 设置每个函数的形参最大数量
+  // maxstatements: 4,         // 设置语句允许的最大声明数
+  "noarg": true,            // 禁止使用 arguments.caller 和 arguments.callee
+  "nocomma": false,         // 禁止使用逗号操作符
+  // "nonbsp": true,           // 不换行的空格警告
+  "nonew": true,            // 禁止使用 new 构造器函数
+  // "notypeof": true,         // 检查无效 typeof 操作符的值
+  // "predef": true,           // 扩展的隐式全局变量
+  // "shadow": ,               // 检查变量重复定义，值为: inner (只检查相同作用域重复定义) | outer (检查外部作用域) | false (同 inner) | true (允许变量覆盖)
+  // "singleGroups": true,     // 禁止使用分组操作符
+  "strict": false,          // ES5 严格模式，值为: global (全局) | implied (文件里) | false (禁用严格模式) | true (函数上必须使用一个"use strict")
+  "undef": true,            // 变量未定义
+  "unused": true,           // 变量定义未使用
+  // "varstmt": true,          // 禁止使用 var 声明变量
+  "devel": false,            // 定义用于日志调试的全局变量: console, alert 等
+
+  "plusplus": false,
+  "regexp": false,
+  
+  
+  
+  "trailing": true,
+
+  "eqnull": true,
+  "laxcomma": true,
+
+  "node": true,
+  "browser": true,
+
+  "onevar": true,
+  "white": true
+
+}
